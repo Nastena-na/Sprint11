@@ -1,0 +1,9 @@
+@import url(./_active/popup__error_active.css);
+
+.popup__error {
+  display: none;
+}
+
+.popup__error:last-of-type {
+  margin-bottom: 0;
+}
