@@ -1,6 +1,4 @@
-'use strict';
-
-class CardList {
+export class CardList {
   constructor(container, callback) {
     this._container = container;
     this._callback = callback;

@@ -1,6 +1,5 @@
-'use strict';
 // Передаем сюда объект.Можем брать из него все, что нужно!
-class Card {
+export class Card {
   constructor(data, api) {
     this._card = null;
     this.data = data;
