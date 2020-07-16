@@ -1,8 +1,0 @@
-.place-card__like-group {
-  display: flex;
-  flex-direction: column;
-  min-height: 35px;
-  width: 21px;
-  align-items: center;
-  justify-content: space-between;
-}
