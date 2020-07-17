@@ -34,13 +34,33 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif|ico|svg)$/,
         use: [
-          'file-loader?name=./src/images/[name].[ext]', // указали папку, куда складывать изображения
+          {
+            loader: 'file-loader',
+          },
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              mozjpeg: {
+                progressive: true,
+                quality: 65,
+              },
+              optipng: {
+                enabled: false,
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+              webp: {
+                quality: 75,
+              },
+            },
+          },
         ],
       },
 
       {
         test: /\.(woff|woff2|ttf)$/,
-        use: 'file-loader?name=./src/vendor/fonts/[name].[ext]',
+        use: 'file-loader?name=./src/vendor/fonts/[name].[ext]', // указали папку, куда складывать шрифты
       },
     ],
   },
