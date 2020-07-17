@@ -1,7 +1,7 @@
 {
   "name": "sprint11",
   "homepage": "https://Nastena-na.github.io/Sprint11/",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A project with webpack",
   "main": "./src/index.js",
   "scripts": {

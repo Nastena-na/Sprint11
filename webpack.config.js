@@ -36,6 +36,9 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
+            options: {
+              name: './images/[name].[ext]', // указали папку, куда складывать изображения
+            },
           },
           {
             loader: 'image-webpack-loader',
@@ -60,7 +63,14 @@ module.exports = {
 
       {
         test: /\.(woff|woff2|ttf)$/,
-        use: 'file-loader?name=./src/vendor/fonts/[name].[ext]', // указали папку, куда складывать шрифты
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: './vendor/fonts/[name].[ext]', // указали папку, куда складывать шрифты
+            },
+          },
+        ],
       },
     ],
   },
