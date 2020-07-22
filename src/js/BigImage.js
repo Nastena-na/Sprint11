@@ -1,6 +1,6 @@
-'use strict';
+import { Popup } from './Popup';
 
-class BigImage extends Popup {
+export class BigImage extends Popup {
   open() {
     super.open();
     this._popup.querySelector(

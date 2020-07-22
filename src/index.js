@@ -1,4 +1,11 @@
-'use strict';
+import './pages/index.css';
+import { Card } from './js/Card';
+import { CardList } from './js/CardList';
+import { Popup } from './js/Popup';
+import { BigImage } from './js/BigImage';
+import { UserInfo } from './js/UserInfo';
+import { FormValidator } from './js/FormValidator';
+import { Api } from './js/Api';
 
 (function () {
   // DOM-элементы
@@ -31,8 +38,11 @@
     '.popup__button_type_avatar'
   );
 
+  const serverUrl =
+    NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
+
   const config = {
-    url: 'https://praktikum.tk/cohort11',
+    url: `${serverUrl}/cohort11`,
     headers: {
       authorization: 'e7c47a46-a800-41a0-9207-658ce4c95ce5',
       'Content-Type': 'application/json',

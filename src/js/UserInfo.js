@@ -1,6 +1,4 @@
-'use strict';
-
-class UserInfo {
+export class UserInfo {
   constructor(nameElem, jobElem, avatarElem, inputName, inputJob) {
     this._nameElem = nameElem;
     this._jobElem = jobElem;

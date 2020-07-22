@@ -1,12 +1,4 @@
-'use strict';
-
-class FormValidator {
-  static _errorMessages = {
-    validationLength: 'Должно быть от 2 до 30 символов',
-    requiredInput: 'Это обязательное поле',
-    validationType: 'Здесь должна быть ссылка',
-  };
-
+export class FormValidator {
   constructor(form) {
     this._form = form;
     this._button = this._form.querySelector('button');
@@ -16,23 +8,28 @@ class FormValidator {
 
   _checkInputValidity(input) {
     const error = input.parentNode.querySelector(`#${input.id}-error`);
+    const errorMessages = {
+      validationLength: 'Должно быть от 2 до 30 символов',
+      requiredInput: 'Это обязательное поле',
+      validationType: 'Здесь должна быть ссылка',
+    };
 
     if (input.validity.typeMismatch) {
       error.classList.add('popup__error_active');
-      input.setCustomValidity(FormValidator._errorMessages.validationType);
+      input.setCustomValidity(errorMessages.validationType);
       error.textContent = input.validationMessage;
       return false;
     }
 
     if (input.validity.valueMissing) {
       error.classList.add('popup__error_active');
-      input.setCustomValidity(FormValidator._errorMessages.requiredInput);
+      input.setCustomValidity(errorMessages.requiredInput);
       error.textContent = input.validationMessage;
       return false;
     }
     if (input.validity.tooShort || input.validity.tooLong) {
       error.classList.add('popup__error_active');
-      input.setCustomValidity(FormValidator._errorMessages.validationLength);
+      input.setCustomValidity(errorMessages.validationLength);
       error.textContent = input.validationMessage;
       return false;
     } else {
