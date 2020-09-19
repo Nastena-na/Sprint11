@@ -1,12 +1,12 @@
-# **Regular-expression**
+# **Sprint11**
 
 текущая версия - 0.0.4
 
-## [Ссылка на проектную работу](https://Nastena-na.github.io/Regular-expression/)
+## [Ссылка на проектную работу](https://Nastena-na.github.io/Sprint11/)
 
 ## Стэк технологий:
 
-ES6, Babel, OOP, CSS3, HTML5, Webpack, BEM
+ES6, Babel, OOP, CSS3, HTML5, Webpack, OOP, BEM
 
 ## Пакеты которые используются в сборках:
 
@@ -28,4 +28,4 @@ ES6, Babel, OOP, CSS3, HTML5, Webpack, BEM
 - Установить зависимости при помощи npm - `npm i`
 - Запустить в development режиме - `npm run dev`
 - Запустить сборку production-билда - `npm run build`
-- Разместить production-билд на github pages - `npm run deploy`
+- Разместить production-билд на github pages - `npm run deploy`.
