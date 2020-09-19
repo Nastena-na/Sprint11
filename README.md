@@ -1,12 +1,12 @@
-# **Sprint11**
+# **Regular-expression**
 
 текущая версия - 0.0.4
 
-## [Ссылка на проектную работу](https://Nastena-na.github.io/Sprint11/)
+## [Ссылка на проектную работу](https://Nastena-na.github.io/Regular-expression/)
 
 ## Стэк технологий:
 
-ES6, Babel, OOP, CSS3, HTML5, Webpack, OOP, BEM
+ES6, Babel, OOP, CSS3, HTML5, Webpack, BEM
 
 ## Пакеты которые используются в сборках:
 
