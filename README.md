@@ -2,7 +2,7 @@
 
 текущая версия - 0.0.4
 
-## [Ссылка на проектную работу](https://Nastena-na.github.io/Sprint11/)
+## [Ссылка на проектную работу](https://Nastena-na.github.io/First-Webpack/)
 
 ## Стэк технологий:
 
