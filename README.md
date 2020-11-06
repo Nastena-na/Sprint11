@@ -1,8 +1,12 @@
-# **Sprint11**
+# **First-Webpack**
 
-текущая версия - 0.0.4
+## "Место"
 
-## [Ссылка на проектную работу](https://Nastena-na.github.io/Sprint11/)
+Приложение с Webpack сборкой, где каждый мой сокурсник может делиться своими постами(есть авторизация пользователя, добавление и удаление карточек, можно ставить лайки).
+
+текущая версия - 0.0.5
+
+## [Ссылка на проектную работу](https://Nastena-na.github.io/First-Webpack/)
 
 ## Стэк технологий:
 
@@ -29,3 +33,5 @@ ES6, Babel, OOP, CSS3, HTML5, Webpack, OOP, BEM
 - Запустить в development режиме - `npm run dev`
 - Запустить сборку production-билда - `npm run build`
 - Разместить production-билд на github pages - `npm run deploy`.
+
+Проект завершён.

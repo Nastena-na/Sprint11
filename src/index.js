@@ -39,7 +39,9 @@ import { Api } from './js/Api';
   );
 
   const serverUrl =
-    NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
+    NODE_ENV === 'production'
+      ? 'https://nomoreparties.co'
+      : 'http://nomoreparties.co';
 
   const config = {
     url: `${serverUrl}/cohort11`,
