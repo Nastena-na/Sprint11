@@ -1,4 +1,4 @@
-# **First-Webpack**
+# **Sprint11**
 
 ## "Место"
 
@@ -6,7 +6,7 @@
 
 текущая версия - 0.0.5
 
-## [Ссылка на проектную работу](https://Nastena-na.github.io/First-Webpack/)
+## [Ссылка на проектную работу](https://Nastena-na.github.io/Sprint11/)
 
 ## Стэк технологий:
 
